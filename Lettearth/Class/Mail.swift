@@ -1,5 +1,5 @@
 //
-//  Item.swift
+//  Mail.swift
 //  Lettearth
 //
 //  Created by Ricky Effendi on 26/08/19.
@@ -9,16 +9,16 @@
 import Foundation
 import UIKit
 
-class Item {
+class Mail {
     var title: String
+    var text: String
     var image: UIImage
-    var material: String
-    var story: UIImage
+    var missions: [String]
     
-    init(title: String, image: UIImage, material: String, story: UIImage) {
+    init(title: String, text: String, image: UIImage, missions: [String]) {
         self.title = title
+        self.text = text
         self.image = image
-        self.material = material
-        self.story = story
+        self.missions = missions
     }
 }

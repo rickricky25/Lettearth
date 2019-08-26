@@ -1,5 +1,5 @@
 //
-//  Item.swift
+//  Card.swift
 //  Lettearth
 //
 //  Created by Ricky Effendi on 26/08/19.
@@ -9,16 +9,14 @@
 import Foundation
 import UIKit
 
-class Item {
+class Card {
     var title: String
     var image: UIImage
-    var material: String
-    var story: UIImage
+    var text: String
     
-    init(title: String, image: UIImage, material: String, story: UIImage) {
+    init(title: String, image: UIImage, text: String) {
+        self.text = text
         self.title = title
         self.image = image
-        self.material = material
-        self.story = story
     }
 }
