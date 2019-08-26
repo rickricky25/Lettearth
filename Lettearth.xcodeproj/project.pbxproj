@@ -18,6 +18,7 @@
 		503884C32313E520002FD5CC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884C22313E520002FD5CC /* Item.swift */; };
 		503884C52313E629002FD5CC /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884C42313E629002FD5CC /* Mail.swift */; };
 		503884C72313E695002FD5CC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884C62313E695002FD5CC /* Card.swift */; };
+		503884CF2313E7C3002FD5CC /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503884CE2313E7C3002FD5CC /* CloudKit.framework */; };
 		51F2F6D82313CB2D00833975 /* CustomGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2F6D72313CB2D00833975 /* CustomGradient.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		503884C22313E520002FD5CC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		503884C42313E629002FD5CC /* Mail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		503884C62313E695002FD5CC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		503884CC2313E7C0002FD5CC /* Lettearth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lettearth.entitlements; sourceTree = "<group>"; };
+		503884CE2313E7C3002FD5CC /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		51F2F6D72313CB2D00833975 /* CustomGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503884CF2313E7C3002FD5CC /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +58,7 @@
 			children = (
 				501CA6B6230FED2600841356 /* Lettearth */,
 				501CA6B5230FED2600841356 /* Products */,
+				503884CD2313E7C3002FD5CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +73,7 @@
 		501CA6B6230FED2600841356 /* Lettearth */ = {
 			isa = PBXGroup;
 			children = (
+				503884CC2313E7C0002FD5CC /* Lettearth.entitlements */,
 				503884CB2313E77F002FD5CC /* Card */,
 				503884CA2313E771002FD5CC /* Story */,
 				503884C92313E76B002FD5CC /* Mail */,
@@ -125,6 +131,14 @@
 			path = Card;
 			sourceTree = "<group>";
 		};
+		503884CD2313E7C3002FD5CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				503884CE2313E7C3002FD5CC /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		51F2F6D92313CBE000833975 /* Custom Cocoa */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +179,14 @@
 				TargetAttributes = {
 					501CA6B3230FED2600841356 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -358,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lettearth/Lettearth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64M6B7NHMY;
 				INFOPLIST_FILE = Lettearth/Info.plist;
@@ -376,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lettearth/Lettearth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64M6B7NHMY;
 				INFOPLIST_FILE = Lettearth/Info.plist;
