@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		501CA6B8230FED2600841356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501CA6B7230FED2600841356 /* AppDelegate.swift */; };
-		501CA6BA230FED2600841356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501CA6B9230FED2600841356 /* ViewController.swift */; };
-		501CA6BD230FED2600841356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501CA6BB230FED2600841356 /* Main.storyboard */; };
+		501CA6BA230FED2600841356 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501CA6B9230FED2600841356 /* HomeViewController.swift */; };
+		501CA6BD230FED2600841356 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501CA6BB230FED2600841356 /* Home.storyboard */; };
 		501CA6C0230FED2600841356 /* Lettearth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 501CA6BE230FED2600841356 /* Lettearth.xcdatamodeld */; };
 		501CA6C2230FED2700841356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501CA6C1230FED2700841356 /* Assets.xcassets */; };
 		501CA6C5230FED2700841356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501CA6C3230FED2700841356 /* LaunchScreen.storyboard */; };
@@ -25,8 +25,8 @@
 /* Begin PBXFileReference section */
 		501CA6B4230FED2600841356 /* Lettearth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lettearth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		501CA6B7230FED2600841356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		501CA6B9230FED2600841356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		501CA6BC230FED2600841356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		501CA6B9230FED2600841356 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		501CA6BC230FED2600841356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		501CA6BF230FED2600841356 /* Lettearth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lettearth.xcdatamodel; sourceTree = "<group>"; };
 		501CA6C1230FED2700841356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		501CA6C4230FED2700841356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,8 +81,6 @@
 				503884BC2313E3FA002FD5CC /* Class */,
 				51F2F6D92313CBE000833975 /* Custom Cocoa */,
 				501CA6B7230FED2600841356 /* AppDelegate.swift */,
-				501CA6B9230FED2600841356 /* ViewController.swift */,
-				501CA6BB230FED2600841356 /* Main.storyboard */,
 				501CA6C1230FED2700841356 /* Assets.xcassets */,
 				501CA6C3230FED2700841356 /* LaunchScreen.storyboard */,
 				501CA6C6230FED2700841356 /* Info.plist */,
@@ -106,6 +104,8 @@
 		503884C82313E766002FD5CC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				501CA6B9230FED2600841356 /* HomeViewController.swift */,
+				501CA6BB230FED2600841356 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 			files = (
 				501CA6C5230FED2700841356 /* LaunchScreen.storyboard in Resources */,
 				501CA6C2230FED2700841356 /* Assets.xcassets in Resources */,
-				501CA6BD230FED2600841356 /* Main.storyboard in Resources */,
+				501CA6BD230FED2600841356 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +230,7 @@
 				503884C72313E695002FD5CC /* Card.swift in Sources */,
 				51F2F6D82313CB2D00833975 /* CustomGradient.swift in Sources */,
 				503884BF2313E48E002FD5CC /* Category.swift in Sources */,
-				501CA6BA230FED2600841356 /* ViewController.swift in Sources */,
+				501CA6BA230FED2600841356 /* HomeViewController.swift in Sources */,
 				501CA6C0230FED2600841356 /* Lettearth.xcdatamodeld in Sources */,
 				503884C32313E520002FD5CC /* Item.swift in Sources */,
 				503884C12313E4D6002FD5CC /* Material.swift in Sources */,
@@ -241,12 +241,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		501CA6BB230FED2600841356 /* Main.storyboard */ = {
+		501CA6BB230FED2600841356 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				501CA6BC230FED2600841356 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		501CA6C3230FED2700841356 /* LaunchScreen.storyboard */ = {
@@ -382,7 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lettearth/Lettearth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64M6B7NHMY;
+				DEVELOPMENT_TEAM = 5N3X6F7MRF;
 				INFOPLIST_FILE = Lettearth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -401,7 +401,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lettearth/Lettearth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64M6B7NHMY;
+				DEVELOPMENT_TEAM = 5N3X6F7MRF;
 				INFOPLIST_FILE = Lettearth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
