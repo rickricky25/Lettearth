@@ -24,6 +24,7 @@
 		503884CF2313E7C3002FD5CC /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503884CE2313E7C3002FD5CC /* CloudKit.framework */; };
 		503884D32314F3B2002FD5CC /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884D22314F3B2002FD5CC /* CategoryCollectionViewCell.swift */; };
 		503884D52314F3E3002FD5CC /* MaterialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884D42314F3E3002FD5CC /* MaterialCollectionViewCell.swift */; };
+		503884E423151E50002FD5CC /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503884E323151E50002FD5CC /* test.storyboard */; };
 		51F2F6D82313CB2D00833975 /* CustomGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2F6D72313CB2D00833975 /* CustomGradient.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		503884CE2313E7C3002FD5CC /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		503884D22314F3B2002FD5CC /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		503884D42314F3E3002FD5CC /* MaterialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCollectionViewCell.swift; sourceTree = "<group>"; };
+		503884E323151E50002FD5CC /* test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
 		51F2F6D72313CB2D00833975 /* CustomGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 		503884E223151DE2002FD5CC /* testing doang */ = {
 			isa = PBXGroup;
 			children = (
+				503884E323151E50002FD5CC /* test.storyboard */,
 			);
 			path = "testing doang";
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				00E5017523151D8800B80734 /* StoryStoryboard.storyboard in Resources */,
 				501CA6BD230FED2600841356 /* Home.storyboard in Resources */,
 				00E5017723151D9200B80734 /* CardStoryboard.storyboard in Resources */,
+				503884E423151E50002FD5CC /* test.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
