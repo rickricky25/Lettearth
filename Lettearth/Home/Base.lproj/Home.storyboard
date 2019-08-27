@@ -149,6 +149,10 @@
                                                                 </label>
                                                             </subviews>
                                                         </view>
+                                                        <connections>
+                                                            <outlet property="image" destination="HVO-NH-FkB" id="bWu-SV-2TH"/>
+                                                            <outlet property="label" destination="tU9-qI-JVg" id="V6s-CQ-nyE"/>
+                                                        </connections>
                                                     </collectionViewCell>
                                                 </cells>
                                                 <connections>
