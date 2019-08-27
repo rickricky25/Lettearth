@@ -106,6 +106,7 @@
 		501CA6B6230FED2600841356 /* Lettearth */ = {
 			isa = PBXGroup;
 			children = (
+				503884E223151DE2002FD5CC /* testing doang */,
 				00E5017123151D6E00B80734 /* Mail */,
 				00E5017023151D6500B80734 /* Story */,
 				00E5016F23151D4800B80734 /* Card */,
@@ -150,6 +151,13 @@
 				503884CE2313E7C3002FD5CC /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		503884E223151DE2002FD5CC /* testing doang */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "testing doang";
 			sourceTree = "<group>";
 		};
 		51F2F6D92313CBE000833975 /* Custom Cocoa */ = {
