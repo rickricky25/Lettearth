@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00E5017323151D7E00B80734 /* MailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E5017223151D7E00B80734 /* MailStoryboard.storyboard */; };
+		00E5017523151D8800B80734 /* StoryStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E5017423151D8800B80734 /* StoryStoryboard.storyboard */; };
+		00E5017723151D9200B80734 /* CardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E5017623151D9200B80734 /* CardStoryboard.storyboard */; };
 		501CA6B8230FED2600841356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501CA6B7230FED2600841356 /* AppDelegate.swift */; };
 		501CA6BA230FED2600841356 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501CA6B9230FED2600841356 /* HomeViewController.swift */; };
 		501CA6BD230FED2600841356 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501CA6BB230FED2600841356 /* Home.storyboard */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00E5017223151D7E00B80734 /* MailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MailStoryboard.storyboard; sourceTree = "<group>"; };
+		00E5017423151D8800B80734 /* StoryStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryStoryboard.storyboard; sourceTree = "<group>"; };
+		00E5017623151D9200B80734 /* CardStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardStoryboard.storyboard; sourceTree = "<group>"; };
 		501CA6B4230FED2600841356 /* Lettearth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lettearth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		501CA6B7230FED2600841356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		501CA6B9230FED2600841356 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +44,6 @@
 		503884C22313E520002FD5CC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		503884C42313E629002FD5CC /* Mail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		503884C62313E695002FD5CC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		503884CC2313E7C0002FD5CC /* Lettearth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lettearth.entitlements; sourceTree = "<group>"; };
 		503884CE2313E7C3002FD5CC /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		503884D22314F3B2002FD5CC /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		503884D42314F3E3002FD5CC /* MaterialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -57,6 +62,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00E5016F23151D4800B80734 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				00E5017623151D9200B80734 /* CardStoryboard.storyboard */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		00E5017023151D6500B80734 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				00E5017423151D8800B80734 /* StoryStoryboard.storyboard */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		00E5017123151D6E00B80734 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				00E5017223151D7E00B80734 /* MailStoryboard.storyboard */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
 		501CA6AB230FED2600841356 = {
 			isa = PBXGroup;
 			children = (
@@ -77,10 +106,9 @@
 		501CA6B6230FED2600841356 /* Lettearth */ = {
 			isa = PBXGroup;
 			children = (
-				503884E123151BA3002FD5CC /* Card */,
-				503884E023151B8B002FD5CC /* Story */,
-				503884DF23151B81002FD5CC /* Mail */,
-				503884CC2313E7C0002FD5CC /* Lettearth.entitlements */,
+				00E5017123151D6E00B80734 /* Mail */,
+				00E5017023151D6500B80734 /* Story */,
+				00E5016F23151D4800B80734 /* Card */,
 				503884C82313E766002FD5CC /* Home */,
 				503884BC2313E3FA002FD5CC /* Class */,
 				51F2F6D92313CBE000833975 /* Custom Cocoa */,
@@ -122,27 +150,6 @@
 				503884CE2313E7C3002FD5CC /* CloudKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		503884DF23151B81002FD5CC /* Mail */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mail;
-			sourceTree = "<group>";
-		};
-		503884E023151B8B002FD5CC /* Story */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Story;
-			sourceTree = "<group>";
-		};
-		503884E123151BA3002FD5CC /* Card */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Card;
 			sourceTree = "<group>";
 		};
 		51F2F6D92313CBE000833975 /* Custom Cocoa */ = {
@@ -219,9 +226,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E5017323151D7E00B80734 /* MailStoryboard.storyboard in Resources */,
 				501CA6C5230FED2700841356 /* LaunchScreen.storyboard in Resources */,
 				501CA6C2230FED2700841356 /* Assets.xcassets in Resources */,
+				00E5017523151D8800B80734 /* StoryStoryboard.storyboard in Resources */,
 				501CA6BD230FED2600841356 /* Home.storyboard in Resources */,
+				00E5017723151D9200B80734 /* CardStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
