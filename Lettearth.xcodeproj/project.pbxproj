@@ -19,6 +19,8 @@
 		503884C52313E629002FD5CC /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884C42313E629002FD5CC /* Mail.swift */; };
 		503884C72313E695002FD5CC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884C62313E695002FD5CC /* Card.swift */; };
 		503884CF2313E7C3002FD5CC /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503884CE2313E7C3002FD5CC /* CloudKit.framework */; };
+		503884D32314F3B2002FD5CC /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884D22314F3B2002FD5CC /* CategoryCollectionViewCell.swift */; };
+		503884D52314F3E3002FD5CC /* MaterialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503884D42314F3E3002FD5CC /* MaterialCollectionViewCell.swift */; };
 		51F2F6D82313CB2D00833975 /* CustomGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2F6D72313CB2D00833975 /* CustomGradient.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		503884C62313E695002FD5CC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		503884CC2313E7C0002FD5CC /* Lettearth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lettearth.entitlements; sourceTree = "<group>"; };
 		503884CE2313E7C3002FD5CC /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		503884D22314F3B2002FD5CC /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		503884D42314F3E3002FD5CC /* MaterialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCollectionViewCell.swift; sourceTree = "<group>"; };
 		51F2F6D72313CB2D00833975 /* CustomGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +110,8 @@
 			children = (
 				501CA6B9230FED2600841356 /* HomeViewController.swift */,
 				501CA6BB230FED2600841356 /* Home.storyboard */,
+				503884D22314F3B2002FD5CC /* CategoryCollectionViewCell.swift */,
+				503884D42314F3E3002FD5CC /* MaterialCollectionViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -230,8 +236,10 @@
 				503884C72313E695002FD5CC /* Card.swift in Sources */,
 				51F2F6D82313CB2D00833975 /* CustomGradient.swift in Sources */,
 				503884BF2313E48E002FD5CC /* Category.swift in Sources */,
+				503884D52314F3E3002FD5CC /* MaterialCollectionViewCell.swift in Sources */,
 				501CA6BA230FED2600841356 /* HomeViewController.swift in Sources */,
 				501CA6C0230FED2600841356 /* Lettearth.xcdatamodeld in Sources */,
+				503884D32314F3B2002FD5CC /* CategoryCollectionViewCell.swift in Sources */,
 				503884C32313E520002FD5CC /* Item.swift in Sources */,
 				503884C12313E4D6002FD5CC /* Material.swift in Sources */,
 				501CA6B8230FED2600841356 /* AppDelegate.swift in Sources */,
