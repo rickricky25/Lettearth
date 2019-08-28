@@ -136,8 +136,8 @@
 		503884C82313E766002FD5CC /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				501CA6B9230FED2600841356 /* HomeViewController.swift */,
 				501CA6BB230FED2600841356 /* Home.storyboard */,
+				501CA6B9230FED2600841356 /* HomeViewController.swift */,
 				503884D22314F3B2002FD5CC /* CategoryCollectionViewCell.swift */,
 				503884D42314F3E3002FD5CC /* MaterialCollectionViewCell.swift */,
 			);
@@ -400,7 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lettearth/Lettearth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 64M6B7NHMY;
 				INFOPLIST_FILE = Lettearth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -419,7 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lettearth/Lettearth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 64M6B7NHMY;
 				INFOPLIST_FILE = Lettearth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
