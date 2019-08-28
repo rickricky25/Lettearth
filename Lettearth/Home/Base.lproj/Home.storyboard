@@ -24,23 +24,23 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UHf-1W-wMt" userLabel="FirstStack">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="59"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ezs-hv-mj4" userLabel="Mainbox">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GN-hD-MKq">
                                                 <rect key="frame" x="24" y="0.0" width="131" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="1" green="0.63556492980000001" blue="0.59293643880000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vJR-PV-Jcw" userLabel="MyCard">
-                                                <rect key="frame" x="175" y="0.0" width="182" height="50"/>
+                                                <state key="normal" image="imgMailbox"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihq-7k-1nH">
+                                                <rect key="frame" x="182" y="1" width="182" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="1" green="0.63556492980000001" blue="0.59293643880000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </view>
+                                                <state key="normal" image="imgActionList"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="59" id="Lz7-Cn-z6w"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdh-Z9-EjR" userLabel="SecondStack">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdh-Z9-EjR" userLabel="SecondStack" customClass="CustomGradient" customModule="Lettearth" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="59" width="414" height="243"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where to Find" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKA-aW-L0B">
@@ -194,7 +194,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Found Anything?" id="OrI-PJ-Bix"/>
+                    <navigationItem key="navigationItem" title="Found Anything?" largeTitleDisplayMode="always" id="OrI-PJ-Bix"/>
                     <connections>
                         <outlet property="CategoryCollection" destination="TJ8-vC-3Fe" id="bXH-IZ-sg5"/>
                         <outlet property="MaterialCollection" destination="Uj5-i4-a5Y" id="FbF-bK-kUt"/>
@@ -279,4 +279,8 @@
             <point key="canvasLocation" x="-877" y="96"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="imgActionList" width="276" height="80"/>
+        <image name="imgMailbox" width="200" height="80"/>
+    </resources>
 </document>
