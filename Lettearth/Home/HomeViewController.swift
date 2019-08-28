@@ -23,11 +23,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-
+        navigationController?.navigationBar.topItem?.title = "Found Anything?"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
+//        let search = UISearchController(searchResultsController: nil)
+//        search.searchResultsUpdater = self
     }
 }
 
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         var hasil = 0
         if collectionView == CategoryCollection {
