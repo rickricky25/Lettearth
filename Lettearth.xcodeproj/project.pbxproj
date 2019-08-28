@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		00E5017323151D7E00B80734 /* MailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E5017223151D7E00B80734 /* MailStoryboard.storyboard */; };
 		00E5017523151D8800B80734 /* StoryStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E5017423151D8800B80734 /* StoryStoryboard.storyboard */; };
-		00E5017723151D9200B80734 /* CardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E5017623151D9200B80734 /* CardStoryboard.storyboard */; };
+		00E5017A2316732500B80734 /* CardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E501792316732500B80734 /* CardStoryboard.storyboard */; };
 		501CA6B8230FED2600841356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501CA6B7230FED2600841356 /* AppDelegate.swift */; };
 		501CA6BA230FED2600841356 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501CA6B9230FED2600841356 /* HomeViewController.swift */; };
 		501CA6BD230FED2600841356 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501CA6BB230FED2600841356 /* Home.storyboard */; };
@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		00E5017223151D7E00B80734 /* MailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MailStoryboard.storyboard; sourceTree = "<group>"; };
 		00E5017423151D8800B80734 /* StoryStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryStoryboard.storyboard; sourceTree = "<group>"; };
-		00E5017623151D9200B80734 /* CardStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardStoryboard.storyboard; sourceTree = "<group>"; };
+		00E501792316732500B80734 /* CardStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardStoryboard.storyboard; sourceTree = "<group>"; };
 		501CA6B4230FED2600841356 /* Lettearth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lettearth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		501CA6B7230FED2600841356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		501CA6B9230FED2600841356 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		00E5016F23151D4800B80734 /* Card */ = {
 			isa = PBXGroup;
 			children = (
-				00E5017623151D9200B80734 /* CardStoryboard.storyboard */,
+				00E501792316732500B80734 /* CardStoryboard.storyboard */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -231,7 +231,7 @@
 				501CA6C2230FED2700841356 /* Assets.xcassets in Resources */,
 				00E5017523151D8800B80734 /* StoryStoryboard.storyboard in Resources */,
 				501CA6BD230FED2600841356 /* Home.storyboard in Resources */,
-				00E5017723151D9200B80734 /* CardStoryboard.storyboard in Resources */,
+				00E5017A2316732500B80734 /* CardStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
