@@ -26,8 +26,9 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.topItem?.title = "Found Anything?"
         navigationController?.navigationBar.prefersLargeTitles = true
         
-//        let search = UISearchController(searchResultsController: nil)
-//        search.searchResultsUpdater = self
+        let search = UISearchController(searchResultsController: nil)
+        search.searchResultsUpdater = self as! UISearchResultsUpdating
+        self.navigationItem.searchController = search
     }
 }
 
