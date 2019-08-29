@@ -8,7 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UISearchResultsUpdating {
+    func updateSearchResults(for searchController: UISearchController) {
+        <#code#>
+    }
+    
 
     @IBOutlet weak var CategoryCollection: UICollectionView!
     @IBOutlet weak var MaterialCollection: UICollectionView!
@@ -27,7 +31,7 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         
         let search = UISearchController(searchResultsController: nil)
-        search.searchResultsUpdater = self as! UISearchResultsUpdating
+        search.searchResultsUpdater = self
         self.navigationItem.searchController = search
     }
 }
